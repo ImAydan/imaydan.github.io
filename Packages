@@ -27,3 +27,33 @@ SHA1: a90260e06bd9382f5bf1a8cc04b7751cb01761f6
 SHA256: deaca1d590cf632e557bd910379918b0d2802c919aae858592c13a84df08e9d1
 Size: 967326
 Installed-Size: 1638
+
+Package:
+Version:
+Filename:
+Architecture: iphoneos-arm
+MD5sum:
+SHA1:
+SHA256:
+Size:
+
+Name: AltStore Beta
+Package:
+Version:
+Section:
+Icon:
+Description: AltStore Beta
+	Riley Testut
+Header: https://raw.githubusercontent.com/ImAydan/imaydan.github.io/master/manager/cake/sileo-depiction.png
+Depiction: https://raw.githubusercontent.com/ImAydan/imaydan.github.io/master/manager/cake/depiction.html
+SileoDepiction: https://raw.githubusercontent.com/ImAydan/imaydan.github.io/master/manager/cake/sileo-depiction.json
+Author: Riley Testus
+Maintainer: Riley Testut
+Homepage: https://altstore.io/
+Filename:
+Architecture: iphoneos-arm
+MD5sum:
+SHA1:
+SHA256:
+Size:
+Installed-Size:
