@@ -1,0 +1,156 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://imaydan.github.io/manager/AltStoreBeta/sileo-depiction.png",
+  "tintColor": "#7BB38B",
+  "tabs": [
+    {
+      "tabname": "Overview",
+      "views": [
+        {
+          "itemCornerRadius": 5,
+          "itemSize": "{160, 346}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://imaydan.github.io/manager/AltStoreBeta/screenshot1.png",
+              "fullSizeURL": "https://imaydan.github.io/manager/AltStoreBeta/screenshot1.png"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://imaydan.github.io/manager/AltStoreBeta/screenshot2.png",
+              "fullSizeURL": "https://imaydan.github.io/manager/AltStoreBeta/screenshot2.png"
+            },
+              {
+              "accessibilityText": "Screenshot",
+              "url": "https://imaydan.github.io/manager/AltStoreBeta/screenshot3.png",
+              "fullSizeURL": "https://imaydan.github.io/manager/AltStoreBeta/screenshot3.png"
+            }
+          ],
+          "ipad": {
+            "itemCornerRadius": 7,
+            "itemSize": "{320, 693}",
+            "screenshots": [
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://imaydan.github.io/manager/AltStoreBeta/screenshot1.png",
+                "fullSizeURL": "https://imaydan.github.io/manager/AltStoreBeta/screenshot1.png"
+              },
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://imaydan.github.io/manager/AltStoreBeta/screenshot2.png",
+                "fullSizeURL": "https://imaydan.github.io/manager/AltStoreBeta/screenshot2.png"
+              },
+                {
+                "accessibilityText": "Screenshot",
+                "url": "https://imaydan.github.io/manager/AltStoreBeta/screenshot3.png",
+                "fullSizeURL": "https://imaydan.github.io/manager/AltStoreBeta/screenshot3.png"
+              }
+            ],
+            "class": "DepictionScreenshotView"
+          },
+          "class": "DepictionScreenshotsView"
+        },
+        {
+          "markdown": "## AltStoreBeta - Back to the Past\n\nDo you still remember the good old days? When themes stretched over your whole device and were extremely high quality?\n\nWell, I hope this is a step in the right direction.\n\nMy all-new theme \"AltStoreBeta\" is modern, intuitive, themes 200 icons and stuff like the dock, badges and page dots. The icon mask and overlay distinct your icons even more.\n\n## Usage\n\nThe theme can be applied with both iThemer and SnowBoard. SnowBoard does require other extensions, like the dock, page dots, icon effects and mask extension, from SparkDev's Repo.\n\nAs long as this theme is avaible on this repo it is still in beta and will be completely free. Icon requests are accepted, just contact me with one of the buttons at the end of the depiction.\n\nWhen I think that \"AltStoreBeta\" is ready I will release it on either Twickd or Dynastic for a small price.\n\n### Recomendet Tweaks\n\nThese tweaks work nicely with AltStoreBeta:\n- HomePlus by @_kritanta\n- Clean Home Screen by @JustinAlexP\n- Pastel by @ConorTheDev\n- BatteryPercentageX by @ichitaso\n- HomeBarSizer by @p2kdev\n- Spectrum by @Skittyblock\n- Brandon Text by @ev_ynw\n- SimpleLS 2 by KpwnZ\n- ColorMeNotifs by @MrGcGamer\n- Lisa by @Esquilli",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Information",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Latest Version",
+          "text": "0.1",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Released",
+          "text": "7.6.2020",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "text": "MartinsZar",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Join my Discord",
+          "action": "https://discordapp.com/invite/ZhJBHqW",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "View me on GitHub",
+          "action": "https://github.com/ImAydan/",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "Contact me on Reddit",
+          "action": "https://www.reddit.com/user/MartinsZar",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "Contact me on Twitter",
+          "action": "https://twitter.com/ZarMartins",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "Contact me via EMail",
+          "action": "mailto:martinszar@icloud.com?subject=AltStoreBeta%20-%20Back%20to%20the%20Past",
+          "class": "DepictionTableButtonView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+        {
+          "title": "Version 0.2",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\n- Added 32 icons\n- Added settings icons\n- Fixed page dots in latest SnowBoard Page Dots Extension",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 21.6.2020</small>",
+          "useRawFormat": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "title": "Version 0.1",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\n- Themes 200 icons\n- Themes dock\n- Themes page dots\n- Themes badges\n- Includes a mask and a overlay",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 7.6.2020</small>",
+          "useRawFormat": true,
+          "class": "DepictionMarkdownView"
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}
