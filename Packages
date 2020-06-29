@@ -44,9 +44,9 @@ Section: Apps
 Icon: https://raw.githubusercontent.com/ImAydan/imaydan.github.io/master/manager/AltStoreBeta/Icon.png
 Description: AltStore Beta
 	Riley Testut
-Header: https://raw.githubusercontent.com/ImAydan/imaydan.github.io/master/manager/cake/sileo-depiction.png
-Depiction: https://raw.githubusercontent.com/ImAydan/imaydan.github.io/master/manager/cake/depiction.html
-SileoDepiction: https://raw.githubusercontent.com/ImAydan/imaydan.github.io/master/manager/cake/sileo-depiction.json
+Header: https://raw.githubusercontent.com/ImAydan/imaydan.github.io/master/manager/AltStoreBeta/sileo-depiction.png
+Depiction: https://raw.githubusercontent.com/ImAydan/imaydan.github.io/master/manager/AltStoreBeta/depiction.html
+SileoDepiction: https://raw.githubusercontent.com/ImAydan/imaydan.github.io/master/manager/AltStoreBeta/sileo-depiction.json
 Author: Riley Testus
 Maintainer: Riley Testut
 Homepage: https://altstore.io/
