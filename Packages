@@ -11,12 +11,12 @@ Name: cake
 Package: com.martinszar.cake
 Version: 0.2
 Section: Themes
-Icon: https://martinszar.github.io/manager/cake/icon.png
+Icon: https://raw.githubusercontent.com/ImAydan/imaydan.github.io/master/manager/cake/icon.png
 Description: Back to the Past
 	MartinsZar
-Header: https://martinszar.github.io/manager/cake/sileo-depiction.png
-Depiction: https://martinszar.github.io/manager/cake/depiction.html
-SileoDepiction: https://martinszar.github.io/manager/cake/sileo-depiction.json
+Header: https://raw.githubusercontent.com/ImAydan/imaydan.github.io/master/manager/cake/sileo-depiction.png
+Depiction: https://raw.githubusercontent.com/ImAydan/imaydan.github.io/master/manager/cake/depiction.html
+SileoDepiction: https://raw.githubusercontent.com/ImAydan/imaydan.github.io/master/manager/cake/sileo-depiction.json
 Author: MartinsZar <martinszar@icloud.com>
 Maintainer: MartinsZar <martinszar@icloud.com>
 Homepage: https://martinszar.github.io/
