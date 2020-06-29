@@ -1,0 +1,29 @@
+Package: com.martinszar.cake
+Version: 0.1
+Filename: /manager/cake/release/com.martinszar.cake_0.1.deb
+Architecture: iphoneos-arm
+MD5sum: c5e08f48f3d513c4e37bb965aff7e808
+SHA1: 3fb96cfd569f391d2cf0b3e46bbed23c6489f3bd
+SHA256: fe7c43b43f1af4ae2e6baf374df7e0d7f048f3a5007a7768d0e2c91206f15c62
+Size: 708762
+
+Name: cake
+Package: com.martinszar.cake
+Version: 0.2
+Section: Themes
+Icon: https://martinszar.github.io/manager/cake/icon.png
+Description: Back to the Past
+	MartinsZar
+Header: https://martinszar.github.io/manager/cake/sileo-depiction.png
+Depiction: https://martinszar.github.io/manager/cake/depiction.html
+SileoDepiction: https://martinszar.github.io/manager/cake/sileo-depiction.json
+Author: MartinsZar <martinszar@icloud.com>
+Maintainer: MartinsZar <martinszar@icloud.com>
+Homepage: https://martinszar.github.io/
+Filename: /manager/cake/release/com.martinszar.cake_0.2.deb
+Architecture: iphoneos-arm
+MD5sum: 8c238f3150e64049ef825e1b1932df28
+SHA1: a90260e06bd9382f5bf1a8cc04b7751cb01761f6
+SHA256: deaca1d590cf632e557bd910379918b0d2802c919aae858592c13a84df08e9d1
+Size: 967326
+Installed-Size: 1638

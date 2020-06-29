@@ -1,0 +1,128 @@
+:root {
+    --dar: none;
+    --lig: inherit;
+    --bor: 1px solid #CDCED3;
+    --but: #EBEBEB;
+    --bac: #FFFFFF;
+    --col: #000000;
+    --foo: #CDCED3;
+    --ver: none;
+    --hor: inherit;
+}
+
+@media screen and (max-device-width: 480px){
+  body{
+    -webkit-text-size-adjust: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --dar: inherit;
+        --lig: none;
+        --bor: 1px solid #323235;
+        --but: #1C1C1E;
+        --bac: #000000;
+        --col: #FFFFFF;
+        --foo: #323235;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    :root {
+        --ver: inherit;
+        --hor: none;
+    }
+}
+
+body {
+    font-family: -apple-system-font, 'Roboto';
+	margin: 0 auto;
+    background-color: var(--bac);
+    color: var(--col);
+}
+
+.nav {
+    height: 91px;
+    width: 288px;
+    margin: 0 auto;
+    border-bottom: var(--bor);
+}
+
+.fea {
+    width: 288px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 12px;
+    border-bottom: var(--bor);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.add {
+    width: 288px;
+    margin: 0 auto;
+    border-bottom: var(--bor);
+}
+
+.man {
+    width: 288px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+button {
+    height: 30px;
+    width: 74px;
+    color: #7BB38B;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 12.5px;
+    background-color: var(--but);
+}
+
+.dar {
+    display: var(--dar);
+}
+
+.lig {
+    display: var(--lig);
+}
+
+.bor {
+    border: var(--bor);
+}
+
+.sep {
+    border-bottom: var(--bor);
+}
+
+.foo {
+    color: var(--foo);
+}
+
+a {
+    text-decoration: none
+}
+
+.but {
+    width: 290.6px;
+    height: 51px;
+    border-radius: 7.5px;
+    background-color: #7BB38B;
+    color: #FFFFFF;
+    position: relative;
+    display: block;
+    margin: -5px auto 0 auto;
+    text-align: center;
+}
+
+.ver {
+    display: var(--ver);
+}
+
+.hor {
+    display: var(--hor);
+}

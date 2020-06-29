@@ -1,0 +1,13 @@
+ {  
+   "class":"FeaturedBannersView",
+   "itemSize":"{263, 148}",
+   "itemCornerRadius":5,
+   "banners":[  
+      {  
+         "url": "https://martinszar.github.io/manager/cake/featured.png",
+         "title": "cake",
+         "package": "com.martinszar.cake",
+         "hideShadow": true
+      },
+   ]
+}
