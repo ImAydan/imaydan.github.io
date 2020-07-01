@@ -1,6 +1,6 @@
 {
   "minVersion": "0.1",
-  "headerImage": "https://imaydan.github.io/manager/cake/sileo-depiction.png",
+  "headerImage": "https://martinszar.github.io/manager/cake/sileo-depiction.png",
   "tintColor": "#7BB38B",
   "tabs": [
     {
@@ -12,18 +12,18 @@
           "screenshots": [
             {
               "accessibilityText": "Screenshot",
-              "url": "https://imaydan.github.io/manager/cake/screenshot1.png",
-              "fullSizeURL": "https://imaydan.github.io/manager/cake/screenshot1.png"
+              "url": "https://martinszar.github.io/manager/cake/screenshot1.png",
+              "fullSizeURL": "https://martinszar.github.io/manager/cake/screenshot1.png"
             },
             {
               "accessibilityText": "Screenshot",
-              "url": "https://imaydan.github.io/manager/cake/screenshot2.png",
-              "fullSizeURL": "https://imaydan.github.io/manager/cake/screenshot2.png"
+              "url": "https://martinszar.github.io/manager/cake/screenshot2.png",
+              "fullSizeURL": "https://martinszar.github.io/manager/cake/screenshot2.png"
             },
               {
               "accessibilityText": "Screenshot",
-              "url": "https://imaydan.github.io/manager/cake/screenshot3.png",
-              "fullSizeURL": "https://imaydan.github.io/manager/cake/screenshot3.png"
+              "url": "https://martinszar.github.io/manager/cake/screenshot3.png",
+              "fullSizeURL": "https://martinszar.github.io/manager/cake/screenshot3.png"
             }
           ],
           "ipad": {
@@ -32,18 +32,18 @@
             "screenshots": [
               {
                 "accessibilityText": "Screenshot",
-                "url": "https://imaydan.github.io/manager/cake/screenshot1.png",
-                "fullSizeURL": "https://imaydan.github.io/manager/cake/screenshot1.png"
+                "url": "https://martinszar.github.io/manager/cake/screenshot1.png",
+                "fullSizeURL": "https://martinszar.github.io/manager/cake/screenshot1.png"
               },
               {
                 "accessibilityText": "Screenshot",
-                "url": "https://imaydan.github.io/manager/cake/screenshot2.png",
-                "fullSizeURL": "https://imaydan.github.io/manager/cake/screenshot2.png"
+                "url": "https://martinszar.github.io/manager/cake/screenshot2.png",
+                "fullSizeURL": "https://martinszar.github.io/manager/cake/screenshot2.png"
               },
                 {
                 "accessibilityText": "Screenshot",
-                "url": "https://imaydan.github.io/manager/cake/screenshot3.png",
-                "fullSizeURL": "https://imaydan.github.io/manager/cake/screenshot3.png"
+                "url": "https://martinszar.github.io/manager/cake/screenshot3.png",
+                "fullSizeURL": "https://martinszar.github.io/manager/cake/screenshot3.png"
               }
             ],
             "class": "DepictionScreenshotView"
@@ -92,7 +92,7 @@
         },
         {
           "title": "View me on GitHub",
-          "action": "https://github.com/ImAydan/",
+          "action": "https://github.com/MartinsZar/",
           "class": "DepictionTableButtonView"
         },
         {

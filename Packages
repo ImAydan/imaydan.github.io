@@ -1,3 +1,284 @@
+Package: com.lacertosusrepo.badgecolor
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 296
+Depends: mobilesubstrate, ws.hbang.common (>= 1.13), ws.hbang.alderis
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.badgecolor_1.1_iphoneos-arm.deb
+Size: 16560
+MD5sum: 22b1cc10b3e49564c91bef8a59e4cbfe
+SHA1: 64741262975a6fb77a5ec23ea9727ad4226fbf0d
+SHA256: 220a3f0a583d2e8ac7a2783f6438e261b73360d51099746dabbf653471aa214d
+Section: Tweaks
+Description: Tiny badge customization...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.badgecolor/
+Name: BadgeColor
+
+Package: com.lacertosusrepo.clauditis
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.clauditis_1.1_iphoneos-arm.deb
+Size: 2630
+MD5sum: 81ecd3969f3e19233f2c99ae440572d4
+SHA1: 0ee172912223b591ebe50cb66a23409366ab3308
+SHA256: 0f6ff5a5a66f62ef05909ddecddccc9aed0960229426bd9900121c1b9358b262
+Section: Tweaks
+Description: Lock your device from home...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.clauditis/
+Name: Clauditis
+
+Package: com.lacertosusrepo.customreach
+Version: 0.1.5
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Depends: mobilesubstrate
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.customreach_0.1.5_iphoneos-arm.deb
+Size: 27770
+MD5sum: f3512600697b7c8a1372287c24d2fed7
+SHA1: 7d38d5a3dc712cb828c7a3b3e97ab88fc1133386
+SHA256: be669bfb2443e1d45c218898703a2f02792a0ee43ac1050934fdc2036ec7fce0
+Section: Tweaks
+Description: Customize Reachability
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.customreach/index.html
+Name: Custom Reach
+
+Package: com.lacertosusrepo.flex4me
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate, com.shmoopillc.flexible (>= 2.1.0)
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.flex4me_1.3_iphoneos-arm.deb
+Size: 3564
+MD5sum: ea89a29ea621b67419cdca47d3336702
+SHA1: af5c5336eaaf9e5ca538db24736f536976d2ae9f
+SHA256: 9cef9391c8751ce0b1c6cb7570d46f37ee1c30dd1e098b28892dedeee0055008
+Section: Development
+Description: Show the FLEX toolbar with force touch...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.flex4me/
+Name: FLEX4Me
+
+Package: com.lacertosusrepo.haptikcenter
+Version: 0.2.8
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Depends: mobilesubstrate
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.haptikcenter_0.2.8_iphoneos-arm.deb
+Size: 351910
+MD5sum: 978298ba021ac0c3c5987a59ca1dd9d6
+SHA1: 5f84b3052203624b0d55d54e4d2f7a3cbd7b6c8a
+SHA256: d6c8689e28f962f123ca32cc11b4d056e32224612d1dcb302dd37efea7f1f35d
+Section: Tweaks
+Description: Add Haptic Feedback To The 'Centers
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.haptikcenter/index.html
+Name: HaptikCenter
+
+Package: com.lacertosusrepo.homebuttonlock
+Version: 0.3.0
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Depends: mobilesubstrate
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.homebuttonlock_0.3.0_iphoneos-arm.deb
+Size: 60988
+MD5sum: 4463fb86fd31e334bd68b677fdeb3154
+SHA1: 6e223cb58875579ad089a514770515b71bdb4e67
+SHA256: 441a4599278084621095e673d519434bed7b63f8f5a4b1bc32d5cce4a999db36
+Section: Tweaks
+Description: Lock Home Button via Activator Action
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.homebuttonlock/index.html
+Name: HomeButtonLock
+
+Package: com.lacertosusrepo.libellum
+Version: 1.4.7
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 472
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), ws.hbang.alderis
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.libellum_1.4.7_iphoneos-arm.deb
+Size: 67336
+MD5sum: 8cdbbc8036dadd2b1319ab39fa2577c8
+SHA1: d5af78fe203574a1fb5f9f12befa0c09461a2c3f
+SHA256: cae0fde7967050b04a02b181805f5571b8e1b1802fb1e2e7c332573856c1fb6e
+Section: Tweaks
+Description: Notes on your lockscreen and notification center...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
+Name: Libellum
+Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
+
+Package: com.lacertosusrepo.libellum
+Version: 1.4.8
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 796
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), ws.hbang.alderis
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.libellum_1.4.8_iphoneos-arm.deb
+Size: 395610
+MD5sum: a5b81be42f8048e9a6d99b7169b81aa0
+SHA1: 09932f19ceb02993d0a4c3187e185d30e1ad3702
+SHA256: dd1f40d9e4b924ff4f3852b41b8ec1f072d016eda18263cad65fffa4cc3b7902
+Section: Tweaks
+Description: Notes on your lockscreen and notification center...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
+Name: Libellum
+Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
+
+Package: com.lacertosusrepo.nonut
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Depends: mobilesubstrate
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.nonut_1.1_iphoneos-arm.deb
+Size: 33714
+MD5sum: 2e778f84d336fb32824cd3fd86b9005f
+SHA1: 6bb301d3baf5aef0194f1454e73a969f98d754a8
+SHA256: 754e827607d8e62eae782e4681269015dc7691b200d846826a106b21766247a3
+Section: Tweaks
+Description: Stop yourself from sinning this month...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.nonut/index.html
+Name: NoNut
+
+Package: com.lacertosusrepo.obscurite
+Version: 0.1.2
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Depends: mobilesubstrate
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.obscurite_0.1.2_iphoneos-arm.deb
+Size: 60924
+MD5sum: d2dc5e7876202c03ae5dcf8a9f28c972
+SHA1: 71dd5543ed0f9c2035ee34b53a318d568752cc7d
+SHA256: 75642eed52ece0f3a04a91667ac112cbe932306fd4694600d1cf7bd34c306a9c
+Section: Tweaks
+Description: Replace dimming with blur
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.obscurite/index.html
+Name: Obscurite
+
+Package: com.lacertosusrepo.popuponstart
+Version: 0.1.1
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Depends: mobilesubstrate
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.popuponstart_0.1.1_iphoneos-arm.deb
+Size: 50934
+MD5sum: dacff8d3b0f65a6c14ee11e7bdb0cbca
+SHA1: 95df02d18cbb1b143bf9a5a69ddf6bb20fbb3773
+SHA256: d2439c0f534e513cfae310e47f7f2362d34ca0cbf10ada13342c7bda62237a8c
+Section: Tweaks
+Description: Custom alert after respring/reboot...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.popuponstart/index.html
+Name: Popup On Start
+
+Package: com.lacertosusrepo.recentshue
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 304
+Depends: mobilesubstrate, ws.hbang.common (>= 1.13), ws.hbang.alderis
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.recentshue_1.0_iphoneos-arm.deb
+Size: 21066
+MD5sum: 0a855244028397f2f4b98156164f2c64
+SHA1: 9fdb093d229d9ec618fad380184099848cbbcd56
+SHA256: 233a326f3e0f48e8557179400bdfbc87735d74f791ac61285ffdc290e1c0c479
+Section: Tweaks
+Description: Colored indicator based on call type...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.recentshue/
+Name: RecentsHue
+
+Package: com.lacertosusrepo.return2sender2
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.return2sender2_1.0_iphoneos-arm.deb
+Size: 3522
+MD5sum: 83dc15dad4037edb85362c78e6730d6b
+SHA1: c0ff149b2d4a6de31bc7d821c28ab19998a06a52
+SHA256: 5122db7b45248c7a4c9ccaa9be88564a1188eb3eca7fb1b41a16c4af759566aa
+Section: Tweaks
+Description: Replace return key with send key...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.return2sender2/
+Name: Return2Sender2
+Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.return2sender2/
+
+Package: com.lacertosusrepo.soundspring
+Version: 0.3.5
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Depends: mobilesubstrate
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.soundspring_0.3.5_iphoneos-arm.deb
+Size: 1535914
+MD5sum: ccac1f6664a3e7cf045917cfddb2574e
+SHA1: 50ee4e62c5062789268e8a3050f31ac5c3f956f6
+SHA256: 7a5ffe1256907d777ff1d208c00b5fefa2775806eb7bfd37e3f2a3ee79e388b9
+Section: Tweaks
+Description: Adele has a message for you
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.soundspring/index.html
+Name: SoundSpring
+
+Package: com.lacertosusrepo.viewprivaterepos
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.viewprivaterepos_1.0_iphoneos-arm.deb
+Size: 2482
+MD5sum: d00c3a5f7ce681791bf81ed12e36c8df
+SHA1: e65dca0657b2a7c0711786d73a80bbf583ba2ab7
+SHA256: 4876724f73d1c0182959566bf0f092b1cb34dd07d8a9e06765f7b4606a20c6ca
+Section: Tweaks
+Description: Allow access to your private repos on CodeHub
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.viewprivaterepos/
+Name: View Private Repos
+
+Package: com.lacertosusrepo.volbrate
+Version: 0.1.4
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Depends: mobilesubstrate
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.volbrate_0.1.4_iphoneos-arm.deb
+Size: 55542
+MD5sum: 4630fa7554062c5d86b0f6d782870ec8
+SHA1: 3f8f7e3c79ee72939fa4522a4cea198d7ab652c4
+SHA256: edbf31735fa8cbf010449f043adb2fd3b4f1f9d56af7c89a47988fdc68fd1ad2
+Section: Tweaks
+Description: Add haptic feedback to the volume controls
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.volbrate
+Name: Volbrate
+
+Package: com.LGariv.YouTubeZoom
+Version: 1.0.0
+Section: Tweaks
+Maintainer: LGariv <lavie43g@gmail.com>
+Depends: firmware (>11.0), mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.LGariv.YouTubeZoom.deb
+Size: 3942
+MD5sum: e1bb045b5f43a7f032dc3038c1da0b69
+Description: This tweak changes the values for YouTube's "Pinch To Zoom" feature, to zoom just to about 18:9 aspect ratio, which is right up to the notch. iPhone X only.
+Name: YouTubeZoom
+Author: LGariv <lavie43g@gmail.com>
+Depiction: https://lgariv.github.io/LaVie/depictions/?p=com.LGariv.YouTubeZoom
+
 Package: com.martinszar.cake
 Version: 0.1
 Filename: /manager/cake/release/com.martinszar.cake_0.1.deb
@@ -11,12 +292,12 @@ Name: cake
 Package: com.martinszar.cake
 Version: 0.2
 Section: Themes
-Icon: https://raw.githubusercontent.com/ImAydan/imaydan.github.io/master/manager/cake/icon.png
+Icon: https://martinszar.github.io/manager/cake/icon.png
 Description: Back to the Past
 	MartinsZar
-Header: https://raw.githubusercontent.com/ImAydan/imaydan.github.io/master/manager/cake/sileo-depiction.png
-Depiction: https://raw.githubusercontent.com/ImAydan/imaydan.github.io/master/manager/cake/depiction.html
-SileoDepiction: https://raw.githubusercontent.com/ImAydan/imaydan.github.io/master/manager/cake/sileo-depiction.json
+Header: https://martinszar.github.io/manager/cake/sileo-depiction.png
+Depiction: https://martinszar.github.io/manager/cake/depiction.html
+SileoDepiction: https://martinszar.github.io/manager/cake/sileo-depiction.json
 Author: MartinsZar <martinszar@icloud.com>
 Maintainer: MartinsZar <martinszar@icloud.com>
 Homepage: https://martinszar.github.io/
@@ -27,6 +308,379 @@ SHA1: a90260e06bd9382f5bf1a8cc04b7751cb01761f6
 SHA256: deaca1d590cf632e557bd910379918b0d2802c919aae858592c13a84df08e9d1
 Size: 967326
 Installed-Size: 1638
+
+: com.galacticdev.bigytminiplayer
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: Galactic Dev
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename:debs/com.galacticdev.bigytminiplayer_0.1_iphoneos-arm.deb
+Size: 4626
+MD5sum: 60b2db06fe0e15a21e1727364b864c9c
+SHA1: 7211184336471ab429ff42f13edadef91b44c352
+SHA256: 36d092f9a26e258aa964a09f9da9ecbcc64e86b7bb29c12a5dce24498b4c5205
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Galactic Dev
+Name: BigYTMiniPlayer
+
+Package: com.galacticdev.isponsorblock
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: Galactic Dev
+Installed-Size: 264
+Depends: mobilesubstrate
+Filename: debs/com.galacticdev.isponsorblock_0.0.2_iphoneos-arm.deb
+Size: 25246
+MD5sum: b4cbb7650f7e1e478b22ac624fc2e94b
+SHA1: 8f7ce680d0dc46eb425bf6b3757051aa1d76fd62
+SHA256: d29dbf789c396e5666b61b951e826ef6ace60e11831d987ea66bed94717fe8f1
+Section: Tweaks
+Description: Skip annoying sponsorships in the default YouTube app. 
+Author: Galactic Dev
+Name: iSponsorBlock
+Depiction: depictions/isponsorblock.html
+
+Package: com.galacticdev.isponsorblock
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: Galactic Dev
+Installed-Size: 264
+Depends: mobilesubstrate
+Filename: debs/com.galacticdev.isponsorblock_0.0.3_iphoneos-arm.deb
+Size: 26540
+MD5sum: d696227fd82fd3e7c27bc30655c12beb
+SHA1: 5de847423c1b4f564a69a6de86fdb1151b47a289
+SHA256: 83ce23178a359b0da2ec22a837976334ffe34485f0e378b1db66588236fc6dc0
+Section: Tweaks
+Description: Skip annoying sponorships in the native YouTube app using SponsorBlock API.
+Author: Galactic Dev
+Name: iSponsorBlock
+Depiction: depictions/isponsorblock.html
+
+Package: com.galacticdev.streaknotifications
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: Galactic Dev
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: debs/com.galacticdev.streaknotifications_0.1_iphoneos-arm.deb
+Size: 7418
+MD5sum: 67e0b7f357f87b5ccab0231b1cf6b485
+SHA1: 4791357f03a6240693b40a7a8e3b70123cebc0d3
+SHA256: c7adf1e83ad54e3ab3fed8c82592669f944095af710573183aa92e80cdeb2395
+Section: Tweaks
+Description: Show how long until snapchat streak expires when you get a snapchat notification.
+Author: Galactic Dev
+Name: StreakNotifications
+
+Package: com.galacticdev.streaknotifications
+Version: 0.2
+Architecture: iphoneos-arm
+Maintainer: Galactic Dev
+Installed-Size: 408
+Depends: mobilesubstrate
+Filename: debs/com.galacticdev.streaknotifications_0.2_iphoneos-arm.deb
+Size: 12144
+MD5sum: ae428630e20dc58ed0f866dd84ab12a7
+SHA1: 812d481ef498f59cc63757cd2bb517fffb014046
+SHA256: 2015d5cb87654ea99b75d28c65699fc62b3eaa7059585c01b4982df1d24ea23c
+Section: Tweaks
+Description: Show how long until snapchat streak expires when you get a snapchat notification.
+Author: Galactic Dev
+Name: StreakNotifications
+
+Package: com.galacticdev.yulkari
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Galactic Dev
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: debs/com.galacticdev.yulkari_0.0.1_iphoneos-arm.deb
+Size: 7092
+MD5sum: 7319bdef7d095478fdd62d7197ed7614
+SHA1: c38dcc83268783f06408c6bdc829a91b73210f9c
+SHA256: fce215764abfc6d1a041118bea8e80c64ba83d99333b91529aa9420f18ac2379
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Galactic Dev
+Name: Yulkari
+
+Package: com.galacticdev.notfinical
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Galactic Dev
+Installed-Size: 248
+Depends: mobilesubstrate
+Filename: debs/com.galacticdev.notfinical_0.0.1_iphoneos-arm.deb
+Size: 9680
+MD5sum: 0247467d844bcd822f7de88324b25add
+SHA1: c7cad33f0841240a23a8f2a5ff899fbfb7396852
+SHA256: 0354c73f432d3d810f26863f07f74d7134f825545d2e07f091b07cc0fbcd5105
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Galactic Dev
+Name: NotFinical
+
+Package: com.galacticdev.notfinical
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Galactic Dev
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: debs/com.galacticdev.notfinical_1.0.1_iphoneos-arm.deb
+Size: 11220
+MD5sum: 8f1e220ec61c68fd96149197e19ccc1f
+SHA1: 774c8d3c988a5cd56317940597da2a80ec3dacb7
+SHA256: 8108008e25f847b56b79eca783ce42e6e1c38199ef21e2aba5988de535df40af
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Galactic Dev
+Name: NotFinical
+
+Package: com.galacticdev.yulkari
+Version: 0.0.1.2
+Architecture: iphoneos-arm
+Maintainer: Galactic Dev
+Installed-Size: 312
+Depends: mobilesubstrate
+Filename: /home/david/galactic-dev.github.io/debs/com.galacticdev.yulkari_0.0.1.2_iphoneos-arm.deb
+Size: 7234
+MD5sum: 93c78bb27ab31ad0072f05c5cfbed9fb
+SHA1: 399ea2bef79645fcc782f644aaf87570612f3b23
+SHA256: 5d87ea5ae6f13f12da06427533c26ffee184808f31a76df6872909b25f71e27d
+Section: Tweaks
+Description: Dismiss the in app safari view when opening web page in safari from app.
+Author: Galactic Dev
+Name: Yulkari
+
+Package: com.galacticdev.streaknotifications
+Version: 0.2-1
+Architecture: iphoneos-arm
+Maintainer: Galactic Dev
+Installed-Size: 444
+Depends: mobilesubstrate
+Filename: /home/david/galactic-dev.github.io/debs/com.galacticdev.streaknotifications_0.2-1_iphoneos-arm.deb
+Size: 12814
+MD5sum: 0f372a314e355689690c4d60c94a5f74
+SHA1: e0fc7e123667723643ec7e0c5d2e99f7bdbae63d
+SHA256: 8e232b3a821460f27fef8710625a3095a8e7580b68109acba5078e28889f6018
+Section: Tweaks
+Description: Show how long until snapchat streak expires when you get a snapchat notification.
+Author: Galactic Dev
+Name: StreakNotifications
+
+Package: com.galacticdev.notfinical
+Version: 1.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Galactic Dev
+Installed-Size: 248
+Depends: mobilesubstrate
+Filename: /home/david/galactic-dev.github.io/debs/com.galacticdev.notfinical_1.0.1-1_iphoneos-arm.deb
+Size: 10846
+MD5sum: 0cd888a856ee95dfb63f76d5726973a7
+SHA1: 18208a3ecabd3b5d7556a909d54cc587175413e6
+SHA256: 7715151e1ec304e0418aa82c58fbd489fc2c89bc782cf37a9c257503d3d2eae8
+Section: Tweaks
+Description: Dismiss the lockscreen music player with a swipe!
+Author: Galactic Dev
+Name: NotFinical
+
+Package: com.aohuiliu.cleanwechat
+Version: 1.0.1-12+debug
+Architecture: iphoneos-arm
+Maintainer: AohuiLiu  <x345242281@outlook.com>
+Depends: firmware (>=12.0), mobilesubstrate
+Filename: ./pkg/com.aohuiliu.cleanwechat.deb
+Size: 7134
+MD5sum: 6c8b1045bb748ccd68200f4acca519eb
+SHA1: 58b95ddfc1fd9869e3bf7ab6f338962ecc5c5f9d
+SHA256: 02a431d0f02f8d310efff040a474d1af10374547fe7592f8b3647d31c2eb2d57
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: 给你一个干净的微信。支持A12
+Author: AohuiLiu  <x345242281@outlook.com>
+Depiction: https://janedut.github.io/depiction/web/com.aohuiliu.cleanwechat.html
+Icon: https://janedut.github.io/assets/com.aohuiliu.cleanwechat/icon.png
+Moderndepiction: https://janedut.github.io/depiction/native/com.aohuiliu.cleanwechat.json
+Name: CleanWechat
+Sileodepiction: https://janedut.github.io/depiction/native/com.aohuiliu.cleanwechat.json
+Tags: compatible_min::ios12.0, compatible_max::ios13.6
+
+Package: com.aohuiliu.doubletaplock
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: AohuiLiu  <x345242281@outlook.com>
+Depends: firmware (>=13.0), mobilesubstrate
+Filename: ./pkg/com.aohuiliu.doubletaplock.deb
+Size: 6130
+MD5sum: a6d24995aab01774fe9e1aa0a026e35b
+SHA1: 74ff0abd97660ecf7c76dfa558262ee5d1ab89e4
+SHA256: 0d84c859bffa70c12be6235be8c79660caaf1ee7c575be7a8ccaf579fcf6ff76
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: Tap 2 times to lock in HomeScreen.
+Author: AohuiLiu  <x345242281@outlook.com>
+Depiction: https://janedut.github.io/depiction/web/com.aohuiliu.doubletaplock.html
+Icon: https://janedut.github.io/assets/com.aohuiliu.doubletaplock/icon.png
+Moderndepiction: https://janedut.github.io/depiction/native/com.aohuiliu.doubletaplock.json
+Name: DoubleTapLock
+Sileodepiction: https://janedut.github.io/depiction/native/com.aohuiliu.doubletaplock.json
+Tags: compatible_min::ios13.0, compatible_max::ios13.4
+
+Package: com.aohuiliu.ipadbar13
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: AohuiLiu  <x345242281@outlook.com>
+Depends: firmware (>=13.0), mobilesubstrate, preferenceloader, firmware (>= 13)
+Filename: ./pkg/com.aohuiliu.ipadbar13.deb
+Size: 107656
+MD5sum: c8ff1cb5561d6b33de50333567cda291
+SHA1: d2ef04f95bafc78e5308ba7ad92b359a8b19c0af
+SHA256: e1af1462cc9acb1a4ec48950e91008ceadb9b922de57dbda5c07a1b64c53585e
+Section: Tweaks
+Description: Awesome Status Bar!
+Author: AohuiLiu, NoisyFlake <x345242281@outlook.com>
+Depiction: https://janedut.github.io/depiction/web/com.aohuiliu.ipadbar13.html
+Icon: https://janedut.github.io/assets/com.aohuiliu.ipadbar13/icon.png
+Moderndepiction: https://janedut.github.io/depiction/native/com.aohuiliu.ipadbar13.json
+Name: iPadBar13
+Sileodepiction: https://janedut.github.io/depiction/native/com.aohuiliu.ipadbar13.json
+Tags: compatible_min::ios13.0, compatible_max::ios13.6
+
+Package: com.aohuiliu.jbbattery
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: AohuiLiu  <x345242281@outlook.com>
+Depends: firmware (>=13.0), mobilesubstrate
+Filename: ./pkg/com.aohuiliu.jbbattery.deb
+Size: 5652
+MD5sum: bb1f2754c2cc32f3d49bf4470b2cec89
+SHA1: ee789f15e886878693969c72971ca93f6b972a4e
+SHA256: c5d423de78935ca8f4d697274371128d4b689ea7330f017b6e1780e254800313
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: 把电池变成JB！ Turn battery to **.
+Author: AohuiLiu  <x345242281@outlook.com>
+Depiction: https://janedut.github.io/depiction/web/com.aohuiliu.jbbattery.html
+Icon: https://janedut.github.io/assets/com.aohuiliu.jbbattery/icon.png
+Moderndepiction: https://janedut.github.io/depiction/native/com.aohuiliu.jbbattery.json
+Name: JbBattery
+Sileodepiction: https://janedut.github.io/depiction/native/com.aohuiliu.jbbattery.json
+Tags: compatible_min::ios13.0, compatible_max::ios13.6
+
+Package: com.aohuiliu.mifitnoupdate
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: AohuiLiu  <x345242281@outlook.com>
+Depends: firmware (>=12.0), mobilesubstrate
+Filename: ./pkg/com.aohuiliu.mifitnoupdate.deb
+Size: 5214
+MD5sum: 19d8b6bd91041b881703e8592cc2c680
+SHA1: 432084936a490f5df746809be3474d67d51256fd
+SHA256: e1c99d68210c2adcf030bf3ed3cf9ffe4d4807e8a047b0130f7e862b775b447f
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: 禁止小米运动更新手环固件。支持A12
+Author: AohuiLiu  <x345242281@outlook.com>
+Depiction: https://janedut.github.io/depiction/web/com.aohuiliu.mifitnoupdate.html
+Icon: https://janedut.github.io/assets/com.aohuiliu.mifitnoupdate/icon.png
+Moderndepiction: https://janedut.github.io/depiction/native/com.aohuiliu.mifitnoupdate.json
+Name: MiFitNoFirmwareUpdate
+Sileodepiction: https://janedut.github.io/depiction/native/com.aohuiliu.mifitnoupdate.json
+Tags: compatible_min::ios12.0, compatible_max::ios13.6
+
+Package: com.aohuiliu.nicephotos
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: AohuiLiu  <x345242281@outlook.com>
+Depends: firmware (>=13.0), mobilesubstrate, preferenceloader, firmware (>= 13)
+Filename: ./pkg/com.aohuiliu.nicephotos.deb
+Size: 11886
+MD5sum: d8f839814f5940a9e9c4b3af8349556f
+SHA1: 5988c51ea392deddcfb649197232c91b8d06972b
+SHA256: 5ab18dc4caec351d001d0a5956cac79b6a7fdaece59b6abc9536a4d97224a92e
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: Skip delete confirmation and Enable unlimited zoom in. Support A12
+Author: AohuiLiu  <x345242281@outlook.com>
+Depiction: https://janedut.github.io/depiction/web/com.aohuiliu.nicephotos.html
+Icon: https://janedut.github.io/assets/com.aohuiliu.nicephotos/icon.png
+Moderndepiction: https://janedut.github.io/depiction/native/com.aohuiliu.nicephotos.json
+Name: NicePhotos
+Sileodepiction: https://janedut.github.io/depiction/native/com.aohuiliu.nicephotos.json
+Tags: compatible_min::ios13.0, compatible_max::ios13.6
+
+Package: com.aohuiliu.nicesettings
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: AohuiLiu  <x345242281@outlook.com>
+Depends: firmware (>=13.0), mobilesubstrate, preferenceloader, firmware (>= 13)
+Filename: ./pkg/com.aohuiliu.nicesettings.deb
+Size: 12784
+MD5sum: 58b598f778030212f9d0db5b57d45ffe
+SHA1: b3ec20d3363f0299a15ea2d0f4166c5f2f52fd74
+SHA256: 23fd0eaffdb26bfa85322589a6b8cd65a5cb4650d3a5d399bcb6abff2faf1d71
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: iPad style settings. Support A12
+Author: AohuiLiu  <x345242281@outlook.com>
+Depiction: https://janedut.github.io/depiction/web/com.aohuiliu.nicesettings.html
+Icon: https://janedut.github.io/assets/com.aohuiliu.nicesettings/icon.png
+Moderndepiction: https://janedut.github.io/depiction/native/com.aohuiliu.nicesettings.json
+Name: NiceSettings
+Sileodepiction: https://janedut.github.io/depiction/native/com.aohuiliu.nicesettings.json
+Tags: compatible_min::ios13.0, compatible_max::ios13.6
+
+Package: com.aohuiliu.tripletaplock
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: AohuiLiu  <x345242281@outlook.com>
+Depends: firmware (>=13.0), mobilesubstrate
+Filename: ./pkg/com.aohuiliu.tripletaplock.deb
+Size: 6128
+MD5sum: 7689be324b944a43438d99decebf31a2
+SHA1: 83834cba965654472a1b609685a75e6e7f860a00
+SHA256: 0e3c6d3e42def751f71d8907bfb9b82c429e7b59993b947edef9fb7ee6c6600d
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: Tap 3 times to lock in HomeScreen.
+Author: AohuiLiu  <x345242281@outlook.com>
+Depiction: https://janedut.github.io/depiction/web/com.aohuiliu.tripletaplock.html
+Icon: https://janedut.github.io/assets/com.aohuiliu.tripletaplock/icon.png
+Moderndepiction: https://janedut.github.io/depiction/native/com.aohuiliu.tripletaplock.json
+Name: TripleTapLock
+Sileodepiction: https://janedut.github.io/depiction/native/com.aohuiliu.tripletaplock.json
+Tags: compatible_min::ios13.0, compatible_max::ios13.4
+
+Package: com.aohuiliu.xgesture13
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: AohuiLiu  <x345242281@outlook.com>
+Depends: firmware (>=13.3), mobilesubstrate
+Filename: ./pkg/com.aohuiliu.xgesture13.deb
+Size: 5654
+MD5sum: d680b33f42aa3e9b60cba3c8549c3a33
+SHA1: 60766e290bc92572be1aa59a6bfb5c9e171a7e28
+SHA256: 7a5b14ff07d13b6894895221fa7e37f0933dff10198d4bd2d1cd423dc0990217
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: X手势⚡️
+  X手势
+  原版键盘
+  锁屏快捷方式（手电、相机）
+  键盘开启时禁用手势
+  相机底部抬升
+  代码优化
+  轻量不耗电
+Author: AohuiLiu  <x345242281@outlook.com>
+Depiction: https://janedut.github.io/depiction/web/com.aohuiliu.xgesture13.html
+Icon: https://janedut.github.io/assets/com.aohuiliu.xgesture13/icon.png
+Moderndepiction: https://janedut.github.io/depiction/native/com.aohuiliu.xgesture13.json
+Name: XGesture13
+Sileodepiction: https://janedut.github.io/depiction/native/com.aohuiliu.xgesture13.json
+Tags: compatible_min::ios13.3, compatible_max::ios13.5
 
 Package: com.julioverne.adblock
 Architecture: iphoneos-arm
