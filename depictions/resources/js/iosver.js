@@ -1,41 +1,75 @@
-//Thank you Matchstic, you beautiful person
-const VERSION_CHECK_SUPPORTED = "<p>iOS %s is supported. ✓</p>";
-const VERSION_CHECK_INFO = "<p>Compatible with iOS %n to %x. Add this repo to your package manager to install.";
-const VERSION_CHECK_UNSUPPORTED = "<p>iOS %s is not supported. ✕</p>";
-const VERSION_CHECK_BETA = "<p>This is beta software! iOS %s may not be supported.</p>";
+const VERSION_CHECK_SUPPORTED = "Your iOS version is supported!";
+const VERSION_CHECK_NEEDS_UPGRADE = "Requires at least iOS %s";
+const VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s";
+const VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s";
 
-function iOSversion() {
-	if (/iP(hone|od|ad)/.test(navigator.platform)) {
-		var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
-		return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
-	} else {
+(function(document) {
+	"use strict";
+
+	function parseVersionString(version) {
+		var bits = version.split(".");
+		return [ bits[0], bits[1] ? bits[1] : 0, bits[2] ? bits[2] : 0 ];
+	}
+
+	function compareVersions(one, two) {
+		// https://gist.github.com/TheDistantSea/8021359
+		for (var i = 0; i < one.length; ++i) {
+			if (two.length == i) {
+				return 1;
+			}
+
+			if (one[i] == two[i]) {
+				continue;
+			} else if (one[i] > two[i]) {
+				return 1;
+			} else {
+				return -1;
+			}
+		}
+
+		if (one.length != two.length) {
+			return -1;
+		}
+
 		return 0;
 	}
-}
 
-var maxVersion = document.getElementById('maxVersion').innerHTML;
-var minVersion = document.getElementById('minVersion').innerHTML;
-var version = iOSversion();
-var versionNumber = String(version[0] + "." + version[1]);
+	var prerequisite = document.querySelector(".prerequisite"),
+		version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))? like/i);
 
-	if(!version) {
-		if(minVersion == "beta" || maxVersion == "beta") {
-			document.getElementById('compatibility').innerHTML="<p>This is beta software! It may not work on certain devices.</p>";
-			document.body.style.setProperty("--title-color", "rgba(225,174,66, 0.5)");
-		} else {
-			document.getElementById('compatibility').innerHTML=VERSION_CHECK_INFO.replace("%n", minVersion).replace("%x", maxVersion);
-			document.body.style.setProperty("--title-color", "rgba(39,174,96, 0.5)");
-		}
-	} else if(versionNumber >= minVersion && version <= maxVersion) {
-		document.getElementById('compatibility').innerHTML=VERSION_CHECK_SUPPORTED.replace("%s", versionNumber);
-		document.body.style.setProperty("--title-color", "rgba(39,174,96, 0.5)");
-	} else if(versionNumber > maxVersion) {
-		document.getElementById('compatibility').innerHTML=VERSION_CHECK_UNSUPPORTED.replace("%s", versionNumber);
-		document.body.style.setProperty("--title-color", "rgba(192,57,43, 0.5)");
-	} else if(minVersion == "beta" || maxVersion == "beta") {
-		document.getElementById('compatibility').innerHTML=VERSION_CHECK_BETA.replace("%s", versionNumber);
-		document.body.style.setProperty("--title-color", "rgba(225,174,66, 0.5)");
-	} else {
-		document.getElementById('compatibility').innerHTML=VERSION_CHECK_UNSUPPORTED.replace("%s", versionNumber);
-		document.body.style.setProperty("--title-color", "rgba(192,57,43, 0.5)");
+	if (!prerequisite || !version) {
+		return;
 	}
+
+	var osVersion = [ version[2], version[3], version[4] ? version[5] : 0 ],
+
+		osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : ""),
+		minString = prerequisite.dataset.minIos,
+		maxString = prerequisite.dataset.maxIos,
+
+		minVersion = parseVersionString(minString),
+		maxVersion = maxString ? parseVersionString(maxString) : null,
+
+		message = VERSION_CHECK_SUPPORTED,
+		isBad = false;
+
+	if (compareVersions(minVersion, osVersion) == 1) {
+		message = VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minString);
+		isBad = true;
+	} else if (maxVersion && compareVersions(maxVersion, osVersion) == -1) {
+		if ("unsupported" in prerequisite.dataset) {
+			message = VERSION_CHECK_UNSUPPORTED.replace("%s", minString).replace("%s", maxString);
+		} else {
+			message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
+		}
+
+		isBad = true;
+	}
+
+//	prerequisite.querySelector("p").textContent = message;
+    prerequisite.querySelector("p").innerHTML = message;
+
+	if (isBad) {
+		prerequisite.classList.add("info");
+	}
+})(document);

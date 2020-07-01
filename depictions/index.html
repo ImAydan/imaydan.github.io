@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>PackageName</title>
+  <title>Ramen Repo</title>
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="theme-color" content="#ffffff">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,20 +17,84 @@
   <script type="text/javascript" src="js/jquery.querystring.js"></script>
   <script type="text/javascript" src="js/data-loader-engine.js"></script>
   <script type="text/javascript" src="js/ios_version_check.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123752025-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-123752025-1');
+  </script>
   <style>
 	@media (max-width: 767px) {
-		body{background:#efeff4!important;margin:0;padding:0;border:0;outline:0;box-sizing:border-box}
+	body{
+		background:#fff!important;
+		margin:0;
+		padding:0;
+		border:0;
+		outline:0;
+		box-sizing:border-box
 	}
-	.jumbotron-bg {
-		background: green
+	
+	.alert{
+		margin-top: 15px !important;
+		margin-bottom: 15px !important;
+		padding-top: 5px !important;
+		padding-bottom: 5px !important;
+		text-align: center;
 	}
+	
   </style>
+  <script>
+	// Mobile Safari in standalone mode
+	if(("standalone" in window.navigator) && window.navigator.standalone){
+
+		// If you want to prevent remote links in standalone web apps opening Mobile Safari, change 'remotes' to true
+		var noddy, remotes = false;
+
+		document.addEventListener('click', function(event) {
+
+			noddy = event.target;
+
+			// Bubble up until we hit link or top HTML element. Warning: BODY element is not compulsory so better to stop on HTML
+			while(noddy.nodeName !== "A" && noddy.nodeName !== "HTML") {
+				noddy = noddy.parentNode;
+			}
+
+			if('href' in noddy && noddy.href.indexOf('http') !== -1 && (noddy.href.indexOf(document.location.host) !== -1 || remotes))
+			{
+				event.preventDefault();
+				document.location.href = noddy.href;
+			}
+
+		},false);
+	}
+  </script>
   <script type="text/javascript">
 
 	bundleid = $.QueryString['p'];
 
     var contentBlocks = 	{
-    	"#packageName" :
+		"#headerImage"	: 
+			{"type":"custom"  
+				,"source" :"package>screenshots>screenshot"
+				,"render" : function(element,source){
+				console.log($(source).size());
+					$.each(source, function(index,data) {
+						var th = $("<div class='thumbnail'>");
+						var imgsrc = bundleid+'/screenshots/'+$(data).find('image').text()
+						var lk = $("<a class='thumb'>").attr("href",imgsrc);
+// 						lk.append($("<img>").attr("src",bundleid+'/screenshots/'+$(data).find('image').text()));
+						var imgblock = $("<img>").attr("src", imgsrc);
+// 						$( "<p>Test</p>" ).appendTo( ".thumb" );
+						lk.append(imgblock);
+						th.append(lk)
+						$(element).append(th);
+					});
+					
+				}
+			}
+    	,"#packageName" :
 			{"type":"text","source":"package>name"}
 		,"#packageHeader" :
 			{"type":"custom"
@@ -38,7 +108,9 @@
 		,"#packageVersion" :
 			{"type":"text","source":"package>version"}
 		,"#packageShortDesc" : 
-			{"type":"text","source":"package>shortDescription"}
+			{"type":"text","source":"package>descriptionlist>description"}
+		,"#packageLongDesc" : 
+			{"type":"text","source":"package>descriptionlist>longdescription"}
 		,"#compatibilityCheck" :
 			{"type":"custom"
 				,"source":"package>compatibility>firmware"
@@ -77,36 +149,6 @@
 					);
 				}
 			}
-		,"#versionBadge" : {"type":"text","source":"package>version"}
-        ,"#changesList"	:
-			{"type":"list"
-				,"source" :"package>changelog>change"
-				,"reverseRender"    : true
-				,"paragraphElement"	: "<li class='list-group-item'>"
-				,"emptyListCallback":function(e){$("#changesList").hide()}
-			}
-		,"#changelogLink" :
-            {"type":"custom"
-                ,"source" :"package>screenshots>screenshot"
-                ,"render":function(element, source){
-                    $("#changelogLink").remove();
-                    if ($(source).size() == 0) {
-                        return
-                    }
-                    // create screenshots link
-                    $("#changesList").append(
-                        $("<a class='link-item list-group-item'>")
-                            .attr("href","changelog.html?p="+bundleid)
-                            .text("Full Changelog")
-                    );
-                }
-            }
-		,"#dependencyList" :
-			{"type":"list"
-				,"source" :"package>dependencies>package"
-				,"paragraphElement"	: "<li class='list-group-item'>"
-				,"emptyListCallback":function(e){$("#dependenciesContainer").remove()}
-			}
 		,"#externalLinksList" :
 			{"type":"custom"
 				,"source" :"package>links>link"
@@ -132,6 +174,7 @@
 				}
 
 			}
+			
 	}
     $( document ).ready(function() {
         $.ajax({
@@ -154,45 +197,28 @@
   </script>
 </head>
 <body>
-<br />
 
 <div id="packageInformation">
-
-	<div id="packageHeader" class="container" style="display:none">
-		<div class="jumbotron">
-			<h1 id="packageName"></h1>
-			<p id="packageShortDesc">brought to you by Reposi3</p>
-		</div>
-	</div>
-
+	
 	<div class="container">
 	  <div id="compatibilityCheck" class="alert"></div>
 	</div>
+	
+	<div id="packageHeader" class="container" style="display:none">
+		<div class="jumbotron">
+			<p class="subtitle"><a class="btn btn-sm btn-default purp" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://ramenrepo.github.io/">+ Add to Cydia</a>&nbsp;&nbsp;&nbsp;ramenrepo.github.io</p>
+			<h1 id="packageName"></h1>
+		</div>		
+	</div>
 
+	<div class="container" style="margin-left: 0px">
+		<h4 style="margin-top: 0px;" id="packageShortDesc"></h4>
+		<ul id="headerImage"></ul>
+	</div>
+	
 	<div class="container">
-		<h5>DESCRIPTION</h5>
-		<ul id="descriptionList" class="list-group">
-			<li id="screenshotsLink" />
-		</ul>
-	</div>
-
-	<div class="container">
-		<h5>IN THIS VERSION <span id="versionBadge" class="badge" /></h5>
-		<ul id="changesList" class="list-group">
-			<li id="changelogLink" />
-		</ul>
-	</div>
-	<div class="container" id="dependenciesContainer">
-		<h5>DEPENDENCIES</h5>
-		<ul id="dependencyList" class="list-group">
-		</ul>
-	</div>
-
-	<div class="container" id="externalLinksContainer">
-		<h5>LINKS</h5>
-		<ul id="externalLinksList" class="list-group">
-		</ul>
-	</div>
+		<p id="packageLongDesc"></p>
+	</div> 
 
 </div>
 <div id="packageError" style="display:none">
@@ -250,9 +276,10 @@
 
 </script>
 
+
 <div id="contactInfo">
 	<div class="container">
-		<h5>CONTACT</h5>
+		<h5>LINKS</h5>
 		<ul class="list-group" id="repoFooterLinks">
 		</ul>
 	</div>
