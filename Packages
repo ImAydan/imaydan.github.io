@@ -11,7 +11,7 @@ Name: KernBypass Beta
 Package: jp.akusio.kernbypass
 Version: 0.0.3b
 Section: System
-Icon: 
+Icon: https://imaydan.github.io/manager/kernalbypass/icon.png
 Description: After installing this tweak run these commands in newterm or another terminal app: (IN THIS ORDER) "su" "alpine" "changerootfs &" "disown %1"
 	Akusio
 Header: https://imaydan.github.io/manager/kernalbypass/sileo-depiction.png
