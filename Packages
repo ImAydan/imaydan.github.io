@@ -1,6 +1,6 @@
 Package: jp.akusio.kernbypass
-Version: 0.0.3
-Filename: /manager/kernalbypass/release/jp.akusio.kernbypass_0.0.3_iphoneos-arm.deb
+Version: 0.0.3b
+Filename: /manager/kernalbypass/release/jp.akusio.kernbypass_0.0.3b_iphoneos-arm.deb
 Architecture: iphoneos-arm
 MD5sum: d8f11bd2b2e85b0034318b48b21f7d79
 SHA1: 1f0b964c4ed4ff15ceb3d12e974528695090c993
@@ -9,7 +9,7 @@ Size: 20480
 
 Name: KernBypass Beta
 Package: jp.akusio.kernbypass
-Version: 0.0.3
+Version: 0.0.3b
 Section: System
 Icon: 
 Description: After installing this tweak run these commands in newterm or another terminal app: (IN THIS ORDER) "su" "alpine" "changerootfs &" "disown %1"
@@ -20,7 +20,7 @@ SileoDepiction: https://imaydan.github.io/manager/kernalbypass/sileo-depiction.j
 Author: Akusio
 Maintainer: Akusio
 Homepage: github.com/akusio
-Filename: /manager/kernalbypass/release/jp.akusio.kernbypass_0.0.3_iphoneos-arm.deb
+Filename: /manager/kernalbypass/release/jp.akusio.kernbypass_0.0.3b_iphoneos-arm.deb
 Architecture: iphoneos-arm
 MD5sum: d8f11bd2b2e85b0034318b48b21f7d79
 SHA1: 1f0b964c4ed4ff15ceb3d12e974528695090c993
