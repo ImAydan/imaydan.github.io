@@ -1,0 +1,156 @@
+{
+  "minVersion": "0.0.3",
+  "headerImage": "https://imaydan.github.io/manager/kernalbypass/sileo-depiction.png",
+  "tintColor": "#7BB38B",
+  "tabs": [
+    {
+      "tabname": "Overview",
+      "views": [
+        {
+          "itemCornerRadius": 5,
+          "itemSize": "{160, 346}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://imaydan.github.io/manager/kernalbypass/screenshot1.png",
+              "fullSizeURL": "https://imaydan.github.io/manager/kernalbypass/screenshot1.png"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://imaydan.github.io/manager/kernalbypass/screenshot2.png",
+              "fullSizeURL": "https://imaydan.github.io/manager/kernalbypass/screenshot2.png"
+            },
+              {
+              "accessibilityText": "Screenshot",
+              "url": "https://imaydan.github.io/manager/kernalbypass/screenshot3.png",
+              "fullSizeURL": "https://imaydan.github.io/manager/kernalbypass/screenshot3.png"
+            }
+          ],
+          "ipad": {
+            "itemCornerRadius": 7,
+            "itemSize": "{320, 693}",
+            "screenshots": [
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://imaydan.github.io/manager/kernalbypass/screenshot1.png",
+                "fullSizeURL": "https://imaydan.github.io/manager/kernalbypass/screenshot1.png"
+              },
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://imaydan.github.io/manager/kernalbypass/screenshot2.png",
+                "fullSizeURL": "https://imaydan.github.io/manager/kernalbypass/screenshot2.png"
+              },
+                {
+                "accessibilityText": "Screenshot",
+                "url": "https://imaydan.github.io/manager/kernalbypass/screenshot3.png",
+                "fullSizeURL": "https://imaydan.github.io/manager/kernalbypass/screenshot3.png"
+              }
+            ],
+            "class": "DepictionScreenshotView"
+          },
+          "class": "DepictionScreenshotsView"
+        },
+        {
+          "markdown": "## kernalbypass - After installing this tweak run these commands in newterm or another terminal app: (IN THIS ORDER) 'su' 'alpine' 'changerootfs &' 'disown %1' ",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Information",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Latest Version",
+          "text": "0.0.3",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Released",
+          "text": "7.6.2020",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "text": "imaydan",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Join my Discord",
+          "action": "https://discordapp.com/invite/ZhJBHqW",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "View me on GitHub",
+          "action": "https://github.com/imaydan/",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "Contact me on Reddit",
+          "action": "https://www.reddit.com/user/imaydan",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "Contact me on Twitter",
+          "action": "https://twitter.com/ZarMartins",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "Contact me via EMail",
+          "action": "mailto:imaydan@icloud.com?subject=kernalbypass%20-%20Back%20to%20the%20Past",
+          "class": "DepictionTableButtonView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+        {
+          "title": "Version 0.0.3",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\n- Added 32 icons\n- Added settings icons\n- Fixed page dots in latest SnowBoard Page Dots Extension",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 21.6.2020</small>",
+          "useRawFormat": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "title": "Version 0.0.3",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\n- Themes 200 icons\n- Themes dock\n- Themes page dots\n- Themes badges\n- Includes a mask and a overlay",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 7.6.2020</small>",
+          "useRawFormat": true,
+          "class": "DepictionMarkdownView"
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}

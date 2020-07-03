@@ -1,0 +1,140 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://martinszar.github.io/manager/liquid/sileo-depiction.png",
+  "tintColor": "#5856CF",
+  "tabs": [
+    {
+      "tabname": "Overview",
+      "views": [
+        {
+          "itemCornerRadius": 5,
+          "itemSize": "{160, 346}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://martinszar.github.io/manager/liquid/screenshot1.png",
+              "fullSizeURL": "https://martinszar.github.io/manager/liquid/screenshot1.png"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://martinszar.github.io/manager/liquid/screenshot2.png",
+              "fullSizeURL": "https://martinszar.github.io/manager/liquid/screenshot2.png"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://martinszar.github.io/manager/liquid/screenshot3.png",
+              "fullSizeURL": "https://martinszar.github.io/manager/liquid/screenshot3.png"
+            }
+          ],
+          "ipad": {
+            "itemCornerRadius": 7,
+            "itemSize": "{320, 693}",
+            "screenshots": [
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://martinszar.github.io/manager/liquid/screenshot1.png",
+                "fullSizeURL": "https://martinszar.github.io/manager/liquid/screenshot1.png"
+              },
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://martinszar.github.io/manager/liquid/screenshot2.png",
+                "fullSizeURL": "https://martinszar.github.io/manager/liquid/screenshot2.png"
+              },
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://martinszar.github.io/manager/liquid/screenshot3.png",
+                "fullSizeURL": "https://martinszar.github.io/manager/liquid/screenshot3.png"
+              }
+            ],
+            "class": "DepictionScreenshotView"
+          },
+          "class": "DepictionScreenshotsView"
+        },
+        {
+          "markdown": "## liquid - New but familiar\n\nLook up, it's looking at you. It was always there and it hasn't really changed since iOS 7. It's your statusbar!\n\n\"liquid\" doesn't only theme that, but also the CC, haptic touch menues and the quick action buttons on the lockscreen. Tweaks like CCModules are fully supportet (even when interacting with them).\n\n## Usage\n\nThe theme can be applied with both iThemer and SnowBoard. SnowBoard requires multiple extension, like the UI extension and the status bar extension, from SparkDev's Repo\n\nIcon requests are accepted, just contact me with one of the buttons at the end of the depiction.\n\nIf you are interested in making a UI theme I will create a UI theming tutorial soon.\n\n### Recomendet Tweaks\n\nThese tweaks are really cool:\n- BatteryPercentageX by @ichitaso\n- CCModules by @jailbreak_365\n- QuickLS by @DaveWijk\n- FlipConvert by @iJulioVerne\n- Magma Evo by @NoisyFlake\n- PowerModule by @Muirey03\n- BetterCCXI by @Andywiik",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Information",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Latest Version",
+          "text": "0.1",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Released",
+          "text": "NOT YET !!CHANGE THIS!!",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "text": "MartinsZar",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Join my Discord",
+          "action": "https://discordapp.com/invite/ZhJBHqW",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "View me on GitHub",
+          "action": "https://github.com/MartinsZar/",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "Contact me on Reddit",
+          "action": "https://www.reddit.com/user/MartinsZar",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "Contact me on Twitter",
+          "action": "https://twitter.com/ZarMartins",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "Contact me via EMail",
+          "action": "mailto:martinszar@icloud.com?subject=cake%20-%20Back%20to%20the%20Past",
+          "class": "DepictionTableButtonView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+        {
+          "title": "Version 0.1",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\n- Themes every stock status bar icon\n- Themes battery\n- Themes all stock CC modules and all CCModules modules\n- Themes both stock quick action buttons",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released NOT YET !!CHANGE!!</small>",
+          "useRawFormat": true,
+          "class": "DepictionMarkdownView"
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}
